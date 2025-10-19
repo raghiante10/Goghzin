@@ -34,7 +34,7 @@ Uma galeria interativa das obras mais marcantes de Vincent van Gogh, criada com 
 ## 🚀 Como visualizar online
 
 O projeto está disponível via GitHub Pages:  
-🔗 [Clique aqui para acessar](https://raptantel.github.io/Goghzin/)
+🔗 [Clique aqui para acessar](https://raghiante10.github.io/Goghzin/)
 
 ---
 
