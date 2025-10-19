@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria Van Gogh</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Galeria de Van Gogh</h1>
+    <p>Explore as obras mais marcantes do artista</p>
+  </header>
+
+  <main>
+    <section class="galeria">
+      <div class="obra" onclick="abrirModalPorTitulo('Amendoeira em Flores')">
+        <img src="imagens/Amendoeira-em-Flor.jpg" alt="Amendoeira em Flores" title="Pintura que simboliza renovação e esperança">
+        <h3>Amendoeira em Flores</h3>
+      </div>
+      <div class="obra" onclick="abrirModalPorTitulo('Auto-Retrato')">
+        <img src="imagens/Auto-Retrato.jpg" alt="Auto-Retrato" title="Expressão intensa do artista em seu estilo único">
+        <h3>Auto-Retrato</h3>
+      </div>
+      <div class="obra" onclick="abrirModalPorTitulo('Comedores de Batatas')">
+        <img src="imagens/Comedores-de-Batatas.jpg" alt="Comedores de Batatas" title="Representação da vida rural e simplicidade">
+        <h3>Comedores de Batatas</h3>
+      </div>
+      <div class="obra" onclick="abrirModalPorTitulo('Lírio')">
+        <img src="imagens/Lirios.jpg" alt="Lírio" title="Flores vibrantes com pinceladas expressivas">
+        <h3>Lírio</h3>
+      </div>
+      <div class="obra" onclick="abrirModalPorTitulo('Noite Estrelada')">
+        <img src="imagens/Noite-Estrelada.jpeg" alt="Noite Estrelada" title="Céu turbulento com estrelas em espiral">
+        <h3>Noite Estrelada</h3>
+      </div>
+      <div class="obra" onclick="abrirModalPorTitulo('Os Girassóis')">
+        <img src="imagens/Os-Girassois.jpeg" alt="Os Girassóis" title="Símbolo de luz, calor e vitalidade">
+        <h3>Os Girassóis</h3>
+      </div>
+      <div class="obra" onclick="abrirModalPorTitulo('Quarto em Arles')">
+        <img src="imagens/Quarto.jpg" alt="Quarto em Arles" title="Interior simples com perspectiva marcante">
+        <h3>Quarto em Arles</h3>
+      </div>
+      <div class="obra" onclick="abrirModalPorTitulo('Terraço do Café à Noite')">
+        <img src="imagens/Terraço.jpg" alt="Terraço do Café à Noite" title="Cena noturna acolhedora com céu estrelado">
+        <h3>Terraço do Café à Noite</h3>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal">
+    <span class="fechar" onclick="fecharModal()" aria-label="Fechar modal">&times;</span>
+    <img id="modal-img" src="" alt="Obra ampliada">
+    <p id="modal-titulo"></p>
+    <p id="modal-descricao"></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Blog Van Gogh</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
